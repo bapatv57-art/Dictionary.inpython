@@ -1,0 +1,42 @@
+print("\nTop bollywood actresses of 2010\n")
+print("Type the fist letter of name and surname in capital letters. Otherwise you won't be able to find your favourite actress in the list")
+
+actress = [
+    "Katrina Kaif",
+    "Deepika Padukone",
+    "Kareena Kapoor",
+    "Priyanka Chopra",
+    "Alia Bhatt",
+    "Anushka Sharma",
+    "Kangna Ranaut",
+    "Vidya Balan",
+    "Shraddha Kapoor",
+    "Sonakshi Sinha"
+    ]
+    
+for name in actress:
+    print(name)
+    
+    
+dictionary={
+        "Deepika Padukone": "You are an iconic girl's girl",
+        "Katrina Kaif":"You love taking care of your body,you love cats",
+        "Kareena Kapoor":"Bebo fans are fun-loving drama queens,absolute cinematic",
+        "Priyanka Chopra":"Gorgeous, bold and down-to-earth Woww that's like my Desi Girl",
+        "Alia Bhatt":"You have a good taste in bollywood for loving an intelligent actress like Alia",
+        "Anushka Sharma":"You love to enjoy life and go with the flow, wwoww now that's like my fearless Farah",
+        "Kangna Ranaut":"Beautiful, savage, and culturally aware that makes you way to dangerous to troll and that's the best thing for a woman",
+        "Vidya Balan":"Dramatic, sweet and a bold woman taking stand for another woman. At times you turn into Manjulika and activate your inner Durga for the destruction of injustice",
+        "Shraddha Kapoor":"You are the sweetest person in your family. You cherish the people around you and that makes you very special",
+        "Sonakshi Sinha":"You have a classy dressing sense and attractive smile"
+        }
+        
+        
+favourite = input("\nEnter your favourite actress name: ")
+        
+if favourite in dictionary:
+    print(dictionary[favourite])
+else:
+    print("Sorry, actress not found in the list!")
+    
+        
